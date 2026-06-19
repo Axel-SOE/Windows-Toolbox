@@ -141,3 +141,4 @@ Alle acties worden automatisch bijgehouden in `logs/InstallatieLogASo.txt`. Elk 
 - Het script vereist een herstart na bepaalde stappen (bijv. na DC-promotie). Autologon en RunOnce worden gebruikt om het script na herstart automatisch verder te laten lopen.
 - De OS-detectie maakt gebruik van de registersleutel `HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion` in plaats van `Get-ComputerInfo` voor snellere opstarttijd.
 - Alle functies maken gebruik van `param()`-blokken en bevatten comment-based help (`Get-Help <functienaam>` werkt).
+- Het script maakt automatisch een desktop shortcut toe voor het script. Om het te laten werken ga naar: properties --> shortcut --> advanced --> checkmark 'run as administrator'
