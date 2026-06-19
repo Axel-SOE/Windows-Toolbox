@@ -1,6 +1,6 @@
 # Windows Setup Automation – Scripting Project ASo
 
-**Auteur:** Axel Soebert
+**Auteur:** Axel Soebert `
 **Opleiding:** Graduaat Systeem- en Netwerkbeheer – AP Hogeschool Antwerpen
 
 ---
