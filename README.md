@@ -36,7 +36,7 @@ scripting/
 
 ## Vereisten
 
-- Windows Server 2019 / 2022 (of Windows 10/11 voor clientconfiguratie)
+- Windows Server 2022 en hoger (of Windows 10/11 voor clientconfiguratie)
 - PowerShell 5.1 of hoger
 - **Uitvoeren als Administrator** (verplicht – het script controleert dit automatisch)
 - De juiste MAC-adressen ingevuld in `Computer.Settings.xml` voor netwerkconfiguratie
