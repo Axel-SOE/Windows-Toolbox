@@ -681,7 +681,7 @@ function Start-WindowsUpdate {
 
         $updates = Get-WindowsUpdate -NotCategory "Drivers"
         if (-not $updates) {
-            Write-Host "    [!] No updates available, skipping reboot." -ForegroundColor Yellow
+            Write-Host "    [!] No pending updates found..." -ForegroundColor Yellow
             Start-Sleep -Seconds 3
             return
         }
